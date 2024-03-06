@@ -1,0 +1,39 @@
+.node-map-container-content {
+    padding-left: 30px;
+}
+
+.node-map-container {
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border-color: rgba(255, 255, 255, 0.2);
+    border-width: 1px;
+    border-style: solid;
+}
+path.react-flow__edge-path {
+    stroke-width: 4;
+    stroke: black;
+}
+.react-flow {
+    flex: 1 0 auto;
+    min-width: 700px;
+    min-height: 400px;
+    background-color: #63738C;
+}
+
+.map-flow {
+    flex: 1 0 auto;
+    flex-direction: column;
+}
+
+.custom-node-content {
+    padding: 10px;
+    display: flex;
+}
+
+.custom-node-info {
+    padding-left: 20px;
+    text-align: left;
+    color: black
+}
